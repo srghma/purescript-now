@@ -1,0 +1,27 @@
+package:
+  name: now
+  publish:
+    license: MIT
+    version: 6.0.0
+    location:
+      githubOwner: purescript-contrib
+      githubRepo: purescript-now
+  dependencies:
+    - assert
+    - console
+    - datetime
+    - effect
+    - either
+    - exceptions
+    - node-process
+    - prelude
+    - transformers
+  test:
+    main: Test.Main
+    dependencies:
+      - console
+      - effect
+workspace:
+  extraPackages: {}
+  packageSet:
+    registry: 60.5.0
