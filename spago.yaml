@@ -21,7 +21,4 @@ package:
       - exceptions
       - node-process
       - transformers
-workspace:
-  extraPackages: {}
-  packageSet:
-    registry: 60.5.0
+workspace: {}
